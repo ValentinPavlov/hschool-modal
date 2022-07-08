@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.login_window {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 529px;
+    background-color: rgba(101, 107, 241, 0.22);
+    box-shadow: 0px 8px 50px rgba(0, 0, 0, 0.22);
+    border-radius: 30px;
+    margin: 30px auto;
+}
+
+.logo {
+    margin: 45px auto 45px auto;
+    width: 124px;
+    height: 38px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    color: #001A49;
+}
+
+.input_container {
+    margin: 0 auto 10px auto;
+    width: 307px;
+    height: 273.48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.input {
+    box-sizing: border-box;
+    width: 307px;
+    height: 38px;
+    background: #F6F6F6;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.input::placeholder {
+    position: absolute;
+    width: 150px;
+    height: 19px;
+    left: 16px;
+    top: calc(50% - 19px/2 + 0.71px);
+    color: #AEAEAE;
+}
+
+.create_acc {
+    background: #8589E4;
+    border: 1px solid #4945F9;
+    border-radius: 8px;
+}
+
+.create_acc p {
+    width: 120px;
+    height: 19px;
+    margin: 8px auto auto;
+    color: #FFFFFF;
+
+}
+
+.policy {
+    margin: 0 auto;
+    width: 278px;
+    height: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
